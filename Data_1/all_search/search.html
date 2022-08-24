@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>seraching javascript in array</h1>
+
+    <script>
+
+    let data=[10 , 20 , 30 , 40 , 50];
+
+
+    let temp=20;
+
+
+    let index;
+
+
+    for(let i=0; i<data.length-1; i++) {
+
+        if(data[i] === temp) {
+
+            index = i;
+        }
+
+    }
+
+    console.log(index);
+                   
+    </script>
+
+    
+</body>
+</html>
+
+<!-- 
+function searchElement(){
+    let data =[20,40,60,5,10,70,80,99];
+           let item=document.getElementById('searchEl').value;
+           let index=undefined;
+           for(i=0;i<=data.length-1;i++){
+               // console.warn(data[i])
+               if(data[i]===parseInt(item))
+               {
+                   index=i;
+                   break;
+               }
+           }
+           console.warn(index);
+           } -->
+
+<!-- 
+
+           let data=[10 , 20 , 30 , 40 , 50 ,20];
+
+
+           let serach=20; //in 70 in my array
+       
+       let index;
+       
+           for(let i=0; i<serach-1; i++){
+       
+       
+             //  console.log(data[i]);
+       
+               if(data[i]=== serach){
+       
+       
+       
+       
+                   index = i;
+                   break;
+       
+               }
+       
+           }
+       
+         //  console.log(index);
+       
+        //   console.log(data.indexOf(serach));
+           //console.log(data.lastIndexOf(serach));
+       
+        //   data.splice(0 , 1 , 100) -->

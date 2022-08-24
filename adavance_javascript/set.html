@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>set in javascript</h1>
+
+    <h1>closen of unqiue value</h1>
+    <h1>remove duplicates value</h1>
+    <script>
+
+        let data=new Set([1 , 7 , 8 , 9 , 10 , 11 , 12 , 1]);
+
+        data.add("fuck_you")
+
+        data.delete(1)
+    
+        data.forEach((elem)=>{
+
+            console.log(elem)
+
+        })
+
+        console.log(data);
+
+        //arr to set value convert
+
+         let arr=["jugal" , 10 , 20  , 30 , 40 ,50];
+
+        arr=new Set(arr)
+        console.log(arr); 
+
+
+        //set to array convert
+
+        let newset=new Set([10 , 20 , 30 , 40 , "jugal sahram"]);
+
+        newset=[...newset];
+
+        console.log(newset)
+
+    </script>
+</body>
+</html>

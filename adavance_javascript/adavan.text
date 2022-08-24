@@ -1,0 +1,46 @@
+Qwhat is object;
+ANS:body is object and face is property;
+
+in programes language we often say an object is an instance of a class;
+this means and they all share methods and properties.
+
+::since object can be enhanced there are many ways to
+
+to create objects sgaring method and properties but we want the simplest one;
+
+code more modular and reusbale
+
+.well organize code
+
+.esier to debugger
+
+.best for medium to website project
+
+
+properties   and  methods
+
+let a              sum(){
+
+                     c=a+b
+                       return c;}
+
+let b;
+
+let c;
+
+
+type of method 
+
+constructor(){
+
+    console.log("hello )-->automatic call to
+}
+
+property --> mesage(){
+
+    console.log("hello")
+}
+
+static method --> static mesage(){
+
+}

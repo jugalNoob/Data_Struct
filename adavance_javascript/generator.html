@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>generator function</h1>
+
+    
+    <h1>stop and start</h1>
+    
+
+    <h2>dynamic id: <span id="newId"></span></h2>
+    <button onclick="getnew()"> id_new</button>
+
+    <script>
+
+        function* generator(){
+
+            let i=10;
+
+            while (true) {
+
+                i++; //
+
+                yield i
+
+            }
+
+
+        }
+        
+   let sg=generator()
+
+        
+        function getnew(){
+
+   //         <!-- console.log(sg.next()) -->
+
+            document.getElementById("newId").innerHTML=sg.next().value;
+        }
+
+      
+
+
+    </script>
+    
+</body>
+</html>
+
+
+
+<!-- function* generator(){
+
+    console.log("hellow")
+
+    yield "hello jugal sharma"; //
+
+    yield 30;
+
+    yield 40;
+
+} -->
+
+<!-- let sg=generator()
+
+console.log(sg.next().value)
+
+console.log(sg.next())
+
+console.log(sg.next())
+
+console.log(sg.next()) -->
